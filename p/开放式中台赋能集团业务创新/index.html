@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='企业开放式中台给员工赋能，促百花齐放，百家争鸣'><title>开放式中台赋能集团业务创新</title>
+
+<link rel='canonical' href='http://LifeIsWater.github.io/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='开放式中台赋能集团业务创新'>
+<meta property='og:description' content='企业开放式中台给员工赋能，促百花齐放，百家争鸣'>
+<meta property='og:url' content='http://LifeIsWater.github.io/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/'>
+<meta property='og:site_name' content='芮宇浩'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='中台架构' /><meta property='article:tag' content='中台赋能' /><meta property='article:published_time' content='2021-11-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-11-01T00:00:00&#43;00:00'/><meta property='og:image' content='http://LifeIsWater.github.io/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/dataCenter.jpeg' />
+<meta name="twitter:title" content="开放式中台赋能集团业务创新">
+<meta name="twitter:description" content="企业开放式中台给员工赋能，促百花齐放，百家争鸣"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='http://LifeIsWater.github.io/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/dataCenter.jpeg' />
+    </head>
+    <body class="
+    article-page 
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        on-phone--column extended
+    
+">
+    
+        <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu91c5f7f82559e7c9efb8b4d890eddf26_279755_300x0_resize_box_3.png" width="300"
+                            height="257" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+            </figure>
+            
+        
+        
+        <h1 class="site-name"><a href="/">芮宇浩</a></h1>
+        <h2 class="site-description">产品负责人--Stay Hungry Stay Foolish</h2><ol class="social-menu">
+                
+                    <li>
+                        <a 
+                            href='/%E5%85%B3%E4%BA%8E/'
+                            target="_blank"
+                            title="简历"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+  <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+  <line x1="3" y1="6" x2="3" y2="19" />
+  <line x1="12" y1="6" x2="12" y2="19" />
+  <line x1="21" y1="6" x2="21" y2="19" />
+</svg>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a 
+                            href='mailto:13770772405@163.com'
+                            target="_blank"
+                            title="邮箱"
+                        >
+                            
+                            
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="3" y="5" width="18" height="14" rx="2" />
+  <polyline points="3 7 12 13 21 7" />
+</svg>
+                            
+                        </a>
+                    </li>
+                
+            </ol></header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>暗色模式</span>
+            </li>
+        
+    </ol>
+</aside>
+
+    
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/">
+                <img src="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/dataCenter_huab7e8948f96c2952a74ae38bb66be7fc_24368_800x0_resize_q75_box.jpeg"
+                        srcset="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/dataCenter_huab7e8948f96c2952a74ae38bb66be7fc_24368_800x0_resize_q75_box.jpeg 800w, /p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/dataCenter_huab7e8948f96c2952a74ae38bb66be7fc_24368_1600x0_resize_q75_box.jpeg 1600w"
+                        width="800" 
+                        height="474" 
+                        loading="lazy"
+                        alt="Featured image of post 开放式中台赋能集团业务创新" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/product/" style="background-color: #2a9d8f; color: #fff;">
+                产品
+            </a>
+        
+            <a href="/categories/internet/" style="background-color: #2a3d9f; color: #fff;">
+                互联网
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/">开放式中台赋能集团业务创新</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        企业开放式中台给员工赋能，促百花齐放，百家争鸣
+    </h3>
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Nov 01, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读所需时长: 2 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    <h2 id="中台及其优势">中台及其优势</h2>
+<p>什么是中台？举个例子：张三每天想吃鸡蛋，于是去市场买了一只鸡，下蛋吃；李四每天也想吃鸡蛋，也去市场买了一只鸡，下蛋吃；同村的王五也想吃鸡蛋，于是也去市场买了一只鸡，下蛋吃；不久之后，村长搞了一个养殖场，鸡、鸭、鹅都有，以后不管是张三、李四、王五还是赵六，只要想吃鸡蛋，就不用再买鸡去下蛋吃了，直接去村长哪里弄鸡蛋，而且不仅仅是鸡蛋，还有鸭蛋、鹅蛋都有。</p>
+<p>简单来说，中台就是将企业各个业务线所相同的东西，抽取和沉淀成一个“公共服务中心”，供各个业务板块协同调用，提升效率，目的是帮助企业快速、低成本的实现业务创新。数据需要不同渠道的海量的数据进行采集、存储、计算、加工形成一个标准化的数据资产，以便于各业务线使用。
+简要总结下中台的三大优势：</p>
+<ul>
+<li>避免重复造轮子，节约企业人力成本，提高研发效率</li>
+<li>各系统打通，不再形成数据孤岛</li>
+<li>不再是单一渠道数据，而是多方数据融合，用户画像更清晰，营销活动更精准，千人千面</li>
+</ul>
+<h2 id="中台业务架构">中台业务架构</h2>
+<p>企业通用的业务前台功能不再直接和后端技术相对接，而是将各业务通用业务整合成中台共享服务中心，整个中台包含例如：用户中心、消息中心、商品中心、内容中心、消息中心、基础组件、交易中心、数据中心、营销中心、会员中心等公共服务。企业云平台给共享服务中心提供技术支撑，共享服务中心向上给前台业务提供服务。
+<figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 177; 
+			flex-basis: 426px"
+	>
+	<a href="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/center.png" data-size="960x540">
+		<img src="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/center.png"
+			width="960"
+			height="540"
+			srcset="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/center_hu045f2e9e58bce70df66c65f21899f5d1_65762_480x0_resize_box_3.png 480w, /p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/center_hu045f2e9e58bce70df66c65f21899f5d1_65762_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="中台核心架构">
+	</a>
+	
+	<figcaption>中台核心架构</figcaption>
+	
+</figure></p>
+<h2 id="开放式中台赋能创新">开放式中台赋能创新</h2>
+<p>为了进一步提升企业创新能力，企业可以在内部完全开放中台能力，让每个员工都能无门槛的接入中台服务，这里说的完全开放是指，完全不需要员工申请接入权限，实现普通员工也可以随时随地去享受中台服务。其实很多时候，企业员工有很多较好的想法，但是几个人也不能将产品实现落地，员工也不可能将每一个好的idea去申请立项。对员工完全开放中台能力，员工和员工之间就可以几个人组成一个小组，甚至有能力的员工一个人就可以实现一个应用。通过这种类似Saas服务的方式，可以不断创新出不同的App和web应用，百花齐放，百家争鸣，推陈出新，较为突出的产品可以作为业务线明星产品获得公司资源和流量扶持，帮助企业在时代风口又好又快发展。</p>
+<p>在整个组织中，中间部分作为中台资源池，中台资源池源源不断地对外赋能，中台部门持续为中台资源池提供模板和组件的更新，员工享受中台资源池对外输出的一切权利，员工或员工与员工之间头脑风暴，输出创新性应用。
+<figure 
+	
+		class="gallery-image" 
+		style="
+			flex-grow: 177; 
+			flex-basis: 426px"
+	>
+	<a href="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/help.png" data-size="960x540">
+		<img src="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/help.png"
+			width="960"
+			height="540"
+			srcset="/p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/help_hub1e4de9d4cc70013dc594137a7303f27_59982_480x0_resize_box_3.png 480w, /p/%E5%BC%80%E6%94%BE%E5%BC%8F%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD%E9%9B%86%E5%9B%A2%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0/help_hub1e4de9d4cc70013dc594137a7303f27_59982_1024x0_resize_box_3.png 1024w"
+			loading="lazy"
+			alt="开放式中台赋能">
+	</a>
+	
+	<figcaption>开放式中台赋能</figcaption>
+	
+</figure></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E4%B8%AD%E5%8F%B0%E6%9E%B6%E6%9E%84/">中台架构</a>
+        
+            <a href="/tags/%E4%B8%AD%E5%8F%B0%E8%B5%8B%E8%83%BD/">中台赋能</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css"integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js"integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8"crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js"integrity="sha384-vZTG03m&#43;2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ]
+        });})
+</script>
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+        <h2 class="section-title">相关文章</h2>
+        <div class="related-contents">
+            <div class="flex article-list--tile">
+                
+                    
+<article class="has-image">
+    <a href="/p/%E6%8A%96%E9%9F%B3%E7%9A%84%E6%88%90%E5%8A%9F%E4%BB%85%E4%BB%85%E6%98%AF%E4%BE%9D%E9%9D%A0%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95%E5%90%97/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E6%8A%96%E9%9F%B3%E7%9A%84%E6%88%90%E5%8A%9F%E4%BB%85%E4%BB%85%E6%98%AF%E4%BE%9D%E9%9D%A0%E6%8E%A8%E8%8D%90%E7%AE%97%E6%B3%95%E5%90%97/douyin.34f5752df433678eb3a016d8e62fc0b7_hu7f0e3688a435569fa131efa127825927_54376_250x150_fill_q75_box_smart1.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy" 
+                        data-key="" 
+                        data-hash="md5-NPV1LfQzZ46zoBbY5i/Atw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">抖音的成功仅仅是依靠推荐算法吗？</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/test-chinese/">
+        
+        
+            <div class="article-image">
+                <img src="/p/test-chinese/reading.ef98acea5dc3d5ea6d12356fd7915240_huc7f340f0bf8263d7d615ad4ebbb4451a_29888_250x150_fill_q75_box_smart1.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy" 
+                        data-key="test-chinese" 
+                        data-hash="md5-75is6l3D1eptEjVv15FSQA==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何做一名优秀的产品经理</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/%E6%9C%AA%E6%9D%A5%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BA%A7%E5%93%81%E6%9B%B4%E5%8F%97%E7%94%A8%E6%88%B7%E6%AC%A2%E8%BF%8E/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E6%9C%AA%E6%9D%A5%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BA%A7%E5%93%81%E6%9B%B4%E5%8F%97%E7%94%A8%E6%88%B7%E6%AC%A2%E8%BF%8E/morePopular.4dfc96df03541cf2de74cb1a74fd139b_hu3d03a01dcc18bc5be0e67db3d8d209a6_109397_250x150_fill_q75_box_smart1.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy" 
+                        data-key="" 
+                        data-hash="md5-TfyW3wNUHPLedMsadP0Tmw==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">未来什么样的产品更受用户欢迎</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/%E4%B8%80%E4%B8%AA%E7%8E%A9%E7%AC%91%E5%BC%95%E5%8F%91%E7%9A%84%E5%85%83%E5%AE%87%E5%AE%99%E6%A6%82%E5%BF%B5/">
+        
+        
+            <div class="article-image">
+                <img src="/p/%E4%B8%80%E4%B8%AA%E7%8E%A9%E7%AC%91%E5%BC%95%E5%8F%91%E7%9A%84%E5%85%83%E5%AE%87%E5%AE%99%E6%A6%82%E5%BF%B5/Meta-Cover.9f6bf85aca5eda055b8f2dde9c05109d_hu0667e7948bc35d6bbb8cc215467d5684_83032_250x150_fill_q75_box_smart1.jpeg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy" 
+                        data-key="" 
+                        data-hash="md5-n2v4Wspe2gVbjy3enAUQnQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">一个玩笑引发的“元宇宙”概念</h2>
+        </div>
+    </a>
+</article>
+                
+            </div>
+        </div>
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 芮宇浩
+    </section>
+    
+    <section class="powerby">
+        
+            作者保留该博客网站的一切权利. <br/>
+        
+
+        
+		
+		<span>Build With Hugo Theme Stack Designed By Jimmy</span>
+		
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
